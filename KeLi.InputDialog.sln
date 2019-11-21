@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.InputDialog.App", "KeLi.InputDialog.App\KeLi.InputDialog.App.csproj", "{0EB88EA3-014D-49C0-8517-5FE8EF8DF818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EB88EA3-014D-49C0-8517-5FE8EF8DF818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB88EA3-014D-49C0-8517-5FE8EF8DF818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB88EA3-014D-49C0-8517-5FE8EF8DF818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB88EA3-014D-49C0-8517-5FE8EF8DF818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BFCD7B5-D09E-43CE-AF2B-290E5FF22157}
+	EndGlobalSection
+EndGlobal
