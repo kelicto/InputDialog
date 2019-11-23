@@ -81,6 +81,7 @@ namespace KeLi.InputDialog.App.Forms
 
             if (TextHandler == null)
                 return;
+
             TextHandler.Invoke(txtInput.Text);
             DialogResult = DialogResult.OK;
         }
