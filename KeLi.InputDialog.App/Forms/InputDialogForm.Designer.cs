@@ -1,4 +1,4 @@
-﻿namespace KeLi.InputDialog.App
+﻿namespace KeLi.InputDialog.App.Forms
 {
     partial class InputDialogForm
     {

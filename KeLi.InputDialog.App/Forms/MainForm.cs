@@ -48,18 +48,20 @@
 
 using System;
 using System.Windows.Forms;
-using KeLi.InputDialog.App.Forms;
 
-namespace KeLi.InputDialog.App
+namespace KeLi.InputDialog.App.Forms
 {
-    internal static class Program
+    public partial class MainForm : Form
     {
-        [STAThread]
-        private static void Main()
+        public MainForm()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            InitializeComponent();
+        }
+
+        private void BtnTest_Click(object sender, EventArgs e)
+        {
+            if (Utils.InputDialog.Show(out var text) == DialogResult.OK)
+                txtContent.Text = text;
         }
     }
 }

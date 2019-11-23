@@ -46,20 +46,7 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
-using System.Windows.Forms;
-using KeLi.InputDialog.App.Forms;
-
-namespace KeLi.InputDialog.App
+namespace KeLi.InputDialog.App.Utils
 {
-    internal static class Program
-    {
-        [STAThread]
-        private static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
-        }
-    }
+    public delegate void TextEventHandler(string text);
 }
