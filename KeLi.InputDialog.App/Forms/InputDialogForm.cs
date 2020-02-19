@@ -46,6 +46,7 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System;
 using System.Windows.Forms;
 using KeLi.InputDialog.App.Utils;
 
@@ -53,14 +54,14 @@ namespace KeLi.InputDialog.App.Forms
 {
     public partial class InputDialogForm : Form
     {
-        public TextEventHandler TextHandler;
-
         public InputDialogForm()
         {
             InitializeComponent();
         }
 
-        private void BtnOk_Click(object sender, System.EventArgs e)
+        public TextEventHandler TextHandler { get; set; }
+
+        private void BtnOk_Click(object sender, EventArgs e)
         {
             if (TextHandler == null)
                 return;
@@ -69,7 +70,7 @@ namespace KeLi.InputDialog.App.Forms
             DialogResult = DialogResult.OK;
         }
 
-        private void BtnCancel_Click(object sender, System.EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
         }
